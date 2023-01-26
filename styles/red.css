@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root {
+    --green: #384937;
+    --pink: #f8ddd6;
+    --blue: #225f7e;
+    --black: #192028;
+    --white: #f7f2ee;
+    --red: #ae0617;;
+}
+
+body {
+    overflow: hidden;
+}
+
+img {
+    width: 60vw;
+    transform: rotate(-7deg);
+    padding: 10vw 20vw;
+}
+
+div {
+    position: absolute;
+    right: -50%;
+    bottom: -75%;
+    width: 150vw;
+    height: 150vw;
+    background-color: var(--red);
+    border-radius: 50%;
+}
